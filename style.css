@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --body-bg-color: #9db7be;
+    --aquamarine: #809be6;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body, html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--body-bg-color);
+    
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container .tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tree-container .perfil{
+    width: 213px;
+    height: 213px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .tree-container .perfil img{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+  }
+
+  .tree-container .instagram {
+    margin-top: 15px;
+    color: black
+  }
+
+  .tree-container .links{
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .links .link {
+    margin-top: 16px;
+    width: 325px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 0;
+    transition: ease 0.6s;
+  }
+
+  .links .link:hover{
+    background: var(--aquamarine);
+    color: var(--body-bg-color);
+  }
+
